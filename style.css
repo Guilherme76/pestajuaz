@@ -1,0 +1,601 @@
+
+
+@font-face {
+  font-family: bignoode;
+  src: url(Fontes/big_noodle_titling.ttf);
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-item{
+  padding: 0.75rem;
+  font-size: 1.25rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.navbar {
+  background-image: url('imags/composicao-da-natureza-morta-do-conceito-de-rede\ \(1\).jpg');
+}
+.footer {
+  background-image: url('imags/composicao-da-natureza-morta-do-conceito-de-rede\ \(1\).jpg');
+  background-size: cover;
+}
+
+.navbar-toggler-icon {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color:black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #EDEDED;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #A70B0B;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #A70B0B;
+}
+
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* GLOBAL STYLES
+--------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-caption h1 {
+  font-family: 'bignoode';
+  letter-spacing: 3px;
+  margin-bottom: 4rem;
+  font-weight: 700;
+  font-size: 80px;
+  background: linear-gradient(to right, #fffec8, #e2e3d9);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 120px;
+}
+
+ .h1a h1 {
+  font-family: 'bignoode';
+  letter-spacing: 3px;
+  margin-bottom: 4rem;
+  font-weight: 700;
+  font-size: 80px;
+  background: linear-gradient(to right, #f26a4a, #fc1607);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 120px;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item .svg2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width:100%;
+  height: 40rem;
+  opacity: 0.95;
+  filter: brightness(0.65);
+}
+
+.carousel-item .svg3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width:100%;
+  height: 40rem;
+  filter: brightness(0.65)
+}
+
+.carousel-caption svg1 {
+  size: 200px;
+}
+
+@media (max-width: 40em) {
+  
+  .navbar-nav {
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+  }
+
+  .navbar-collapse {
+    margin-top: 1rem;
+  }
+
+  .navbar-toggler {
+    margin-top: 0.5rem;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0.5rem 0;
+  }
+
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 4rem 0;
+  /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 0.05rem;
+  font-family: 'bignoode';
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 2rem;
+  }
+
+}
+
+@media (min-width: 771px) {
+    .imavol {
+        margin-top: 120px;
+    }
+
+    .imaser {
+        margin-top: 80px; 
+    }
+}
+
+.lista_servicos {
+  margin-top: 3rem;
+}
+
+@media (max-width: 700px) {
+  .carousel-caption h1 {
+    font-size: 50px;
+  }
+
+  .navbar-brand img {
+    width: 220px;
+  }
+}
+
+@media (min-width: 1104px) {
+
+  .h1b h1 {
+    font-size: 120px;
+    margin-bottom: 40px;
+  }
+
+  .h1a h1 {
+    font-size: 120px;
+    margin-bottom: 35px;
+  }
+
+  .h1b p {
+    font-size: 25px;
+  }
+
+  .h1a p {
+    font-size: 25px;
+  }
+  
+}
+
+@media (max-width: 1103px) {
+
+  .h1b h1 {
+    font-size: 80px;
+    margin-bottom: 24px;
+  }
+
+  .h1a h1 {
+    font-size: 80px;
+    margin-bottom: 35px;
+  }
+
+  .h1b p {
+    font-size: 22px;
+  }
+
+  .h1a p {
+    font-size: 20px;
+  }
+  
+}
+
+@media (max-width: 720px) {
+  .carousel-caption h1 {
+    font-size: 33px;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 1rem;
+  }
+
+  .svg-cont {
+    margin-bottom: 70px;
+  }
+
+  .h1b h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+  }
+
+  .h1a h1 {
+    font-size: 65px;
+    margin-bottom: 15px;
+  }
+
+  .h1b p {
+    font-size: 18px;
+  }
+
+  .h1a p {
+    font-size: 16px;
+  }
+
+  .marketing .col-lg-4 .lista1 li{
+    margin-bottom: 1.3rem;
+    font-size: 17px;
+  }
+
+  .border2h2 {
+    font-size: 35px;
+  }
+  
+  .border1h2 {
+    font-size: 35px;
+  }
+
+  .borderh2 {
+    font-size: 35px;
+  }
+
+  .featurette-heading {
+    font-size: 57px;
+    margin-bottom: 10px;
+  }
+
+  .par1 {
+    margin-top: 10px;
+  }
+
+  .col5 {
+    order: -1;
+  }
+
+  .titulomd7qs {
+    order: -1;
+  }
+
+  .featurette-image {
+    margin-top: 0px;
+  }
+
+  .im2 {
+    margin-bottom: 20px;
+  }
+
+  .im3 {
+    margin-bottom: 20px;
+  }
+
+  .d-flex {
+    justify-content: center;
+  }
+
+  .d-flex li {
+    margin: 0 5px;
+  }
+
+  .imavol {
+    margin-top: 0;
+  }
+
+  .imaser {
+    margin-top: 0;
+  }
+
+}
+
+.par1 {
+  font-size: 23px;
+  margin-top: 23px;
+}
+
+.par2 {
+  font-size: 23px;
+  margin-top: 28px;
+  margin-bottom: 60px;
+}
+
+.par3 {
+  font-size: 22px;
+  margin-top: 28px;
+  margin-bottom: 80px;
+}
+
+.lista_servicos ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista_servicos li {
+  margin-bottom: 10px;
+  font-size: 35px;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.lista_servicos .col-md-10 {
+  border-top: 2px solid #333;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container-doe {
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.pix {
+  font-size: 24px;
+  color: #1B9CFC;
+  margin-right: 10px;
+}
+
+.banco {
+  font-size: 20px;
+  color: #2C3A47;
+  margin-right: 10px;
+}
+
+.conta {
+  font-size: 20px;
+  color: #2C3A47;
+}
+
+.lista1 {
+  text-align: center;
+}
+
+.lista1 ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.lista1 li{
+  margin-bottom: 1.3rem;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.contato1 {
+  background-image: url('imags/1586743_4394.jpg');
+  background-size: cover;
+}
+
+.notification {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  color: #000000;
+}
+
+.col-lg-4 h2 {
+  font-family: 'bignoode';
+  margin-top: 0.4rem;
+}
+
+.icon1-servicos{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('imags/brainstorm.png');
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.icon2-servicos{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('imags/physical-therapy.png');
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.icon3-servicos{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('imags/ear.png');
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.icon4-servicos{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('imags/integrity.png');
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.icon5-servicos{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('imags/psychiatry.png');
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.borderh2 {
+  border-bottom: 2px solid red; /* Define a largura e cor da borda */
+  width: 32%; /* Define a largura da borda */
+  margin: 0 auto; /* Centraliza o elemento h2 na página */
+  margin-bottom: 10px;
+}
+.border1h2 {
+  border-bottom: 2px solid red; /* Define a largura e cor da borda */
+  width: 28%; /* Define a largura da borda */
+  margin: 0 auto; /* Centraliza o elemento h2 na página */
+  margin-bottom: 10px;
+}
+.border2h2 {
+  border-bottom: 2px solid red; /* Define a largura e cor da borda */
+  width: 25%; /* Define a largura da borda */
+  margin: 0 auto; /* Centraliza o elemento h2 na página */
+  margin-bottom: 10px;
+}
+
+.custom-toggler-icon {
+background-image: url('imags/barra-de-menu.png'); /* substitua pelo caminho para o seu ícone */
+}
+
+.footer h5 {
+color: #b9030f;
+font-size: 21px;
+text-transform: uppercase;
+font-weight: 700;
+}
+
+.parf1 {
+color: #A70B0B;
+font-family: 'Bignoode';
+font-size: 30px;
+}
+.footer {
+text-align: center;
+}
+
+.contatovol {
+color: #fc1607;
+font-family: 'Bignoode';
+text-decoration: none;
+}
+
+.hea1 {
+color: #1B9CFC;
+}
+
+.hea2 {
+color: darkorange;
+}
+
+.hea3 {
+color: #A70B0B;
+}
+
+.hea4 {
+color: blueviolet;
+}
+
+.contc {
+font-family: 'Bignoode';
+font-size: 55px;
+font-weight: 400;
+}
+
+.carimg {
+max-width: 900px;
+}
+
+.whatsapp-icon {
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.icon-instagram {
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+.footer ul {
+    justify-content: center;
+}
